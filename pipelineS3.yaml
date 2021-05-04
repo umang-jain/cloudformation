@@ -1,0 +1,21 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Description: This template creates a Amazon Linux 2 EC2 instance of Instance Type "t2.micro" with Name "Test12" and the template should be deployed to th region 'us-east-1'
+
+Parameters:
+  AMIID:
+    Description: As of now it is Using AL2, however it can be changed. AL2 AMI ID  - ami-0742b4e673072066f and Ubuntu 18.04 AMI ID is ami-013f17f36f8b1fefb
+    Type: String
+    Default: ami-0742b4e673072066f
+
+Resources:
+  MyEC2Instance:
+    Type: AWS::EC2::Instance
+    Properties:
+      ImageId: !Ref AMIID
+      InstanceType: t2.micro
+      Tags:
+        - Key: Name
+          Value: Test12
+        -  Key: Name1
+           Value: try12

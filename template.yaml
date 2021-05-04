@@ -13,7 +13,7 @@ Resources:
     Type: AWS::EC2::Instance
     Properties:
       ImageId: !Ref AMIID
-      InstanceType: t2.micro
+      InstanceType: t2.medium
       Tags:
         - Key: Name
           Value: Test12

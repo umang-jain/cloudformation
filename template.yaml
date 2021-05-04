@@ -20,4 +20,4 @@ Resources:
         -  Key: Name1
            Value: try12
   S3Bucket:
-    Type: AWS:S3::Bucket
+    Type: AWS::S3::Bucket

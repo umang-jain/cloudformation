@@ -13,11 +13,10 @@ Resources:
     Type: AWS::EC2::Instance
     Properties:
       ImageId: !Ref AMIID
-      InstanceType: t2.small
+      InstanceType: t2.micro
       Tags:
         - Key: Name
           Value: Test12
         -  Key: Name1
            Value: try12
-  Bucket:
-    Type: AWS::S3::Bucket
+  

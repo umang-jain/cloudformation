@@ -1,0 +1,15 @@
+{
+  "Parameters" : {
+    "AMIID": "ami-0742b4e673072066f"
+  }
+  "StackPolicy" : {
+    "Statement" : [
+      {
+        "Effect" : "Deny",
+        "Action" : "Update:*",
+        "Principal": "*",
+        "Resource" : "*"
+      }
+    ]
+  }
+}

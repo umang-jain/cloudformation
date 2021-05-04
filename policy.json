@@ -5,7 +5,7 @@
   "StackPolicy" : {
     "Statement" : [
       {
-        "Effect" : "Allow",
+        "Effect" : "Deny",
         "Action" : "Update:Delete",
         "Principal": "*",
         "Resource" : "*"

@@ -16,7 +16,7 @@ Resources:
       InstanceType: t2.small
       Tags:
         - Key: Name
-          Value: Test12
+          Value: Test12dsad
         -  Key: Name1
-           Value: try1234
+           Value: try1234eqweqw
   
